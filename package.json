@@ -1,0 +1,15 @@
+{
+  "name": "curriculum-walkerlobato",
+  "version": "1.0.0",
+  "description": "Curriculum Walker Lobato",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "sass --watch scss:css --style compressed"
+  },
+  "author": "Walker Lobato",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.52.1"
+  }
+}

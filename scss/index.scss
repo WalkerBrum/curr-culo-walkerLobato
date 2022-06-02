@@ -1,0 +1,140 @@
+@use 'nav';
+@use 'footer';
+
+* { 
+    box-sizing: border-box;  
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+    
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 300px;
+    margin-bottom: 110px;
+    background-color: #f3f2ef;
+    
+    .main-section {
+        background-color: white;
+        padding: 20px 40px;
+        margin: 30px;
+        border-radius: 10px;
+
+        header {
+            font-size: 1.4em;
+            font-weight: bold;
+            padding: 20px 10px;
+        }
+    }
+
+    
+
+    #resume {
+
+        .class-header {
+            width: 100%;
+        }
+
+        .profile-photo {
+            position: absolute;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            border: 3px solid white;
+            left: 90px;
+            top: 220px;
+        }
+
+        .main-informations {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 70px;
+
+            .skills-informations {
+                h3 {
+                    margin: 0;
+                }
+
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                }
+            }
+            
+            .work-graduate-informations {
+                margin: auto;
+
+                h4 {
+                    margin: 0;
+                }
+
+                p {
+                    margin: 0 0 10px 0;
+                }
+            }
+        }
+    }
+
+    #experience {
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+            h4 {
+                margin: 0;
+            }
+            
+            p {
+                margin: 0;
+            }
+            
+            .work-activities {
+                margin: 25px 0;
+            }
+        }   
+    }
+
+    #academic-education {
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+            h4 {
+                margin: 20px 0 0 0 ;
+            }
+            
+            p {
+                margin: 0;
+            }
+
+            .list-awari {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    #license-certificate {
+        ul {
+            list-style: none;
+            padding: 0;
+
+            h4 {
+                margin: 20px 0 0 0 ;
+            }
+            
+            p {
+                margin: 0;
+            }
+        }
+    }
+}
+
+
